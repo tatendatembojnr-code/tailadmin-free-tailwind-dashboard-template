@@ -1,4 +1,13 @@
 {
   "css.validate": false,
-  "prettier.printWidth": 80
+  "prettier.printWidth": 80,
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
